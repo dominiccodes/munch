@@ -105,8 +105,11 @@ footer a {
 
 /* RESPONSIVE DESIGN */
 
-/* rules apply to all screens below 1100px,  screens bigger than 1100px will ignore these styles*/
+/* rules apply to all screens below 1100px, 
+screens bigger than 1100px will ignore these styles*/
+
 @media screen and (max-width: 1100px) {
+	
 	body {
 		width: auto;
 	}
@@ -115,7 +118,29 @@ footer a {
 		max-width: 100%;
 	}
 	
+	header {
+		margin: 30px 0 30px 0;
+	}
+	
+	.post-content {
+		padding: 35px 35px 35px 35px;
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,3 +1,4 @@
+/*Top Level Rules*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 body {
@@ -13,3 +14,54 @@ body {
 	/*	off white color*/
 	background-color: #ecf0f1;
 }
+
+/*  HEADER STYLES  */
+
+header {
+	/*	affects logo and nav */
+	text-align: center;
+	margin: 60px 0;
+	/*	pushes content away from the header */
+}
+
+h1 {
+	/*	bit of space between h1 (logo) and nav below it*/
+	margin: 0 0 60px 0;
+}
+
+
+/*  NAVIGATION STYLES  */
+
+/*all anchors in the nav*/
+nav a {
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+	color: #141618;
+	text-decoration: none;
+	margin: 0 40px 0 40px;
+	text-transform: uppercase;
+}
+
+/*rollover styles - state selectors */
+
+
+nav a:hover {
+	color: #fac600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

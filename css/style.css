@@ -92,7 +92,18 @@ h3 {
 
 
 
+/*  FOOTER STYLES  */
 
+footer {
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	color: #7e8081;
+}
+
+footer a {
+	margin: 0 16px 0 16px;
+	text-decoration: none;
+}
 
 
 

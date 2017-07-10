@@ -1,5 +1,6 @@
-/*Top Level Rules*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+/*Top Level Rules*/
 
 body {
 	font-family: "Georgia", "Cambria", serif;
@@ -14,6 +15,7 @@ body {
 	/*	off white color*/
 	background-color: #ecf0f1;
 }
+
 
 /*  HEADER STYLES  */
 
@@ -44,12 +46,9 @@ nav a {
 
 /*rollover styles - state selectors */
 
-
 nav a:hover {
 	color: #fac600;
 }
-
-
 
 
 /*  SECTION STYLES  */
@@ -91,7 +90,6 @@ h3 {
 }
 
 
-
 /*  FOOTER STYLES  */
 
 footer {
@@ -105,7 +103,19 @@ footer a {
 	text-decoration: none;
 }
 
+/* RESPONSIVE DESIGN */
 
+/* rules apply to all screens below 1100px,  screens bigger than 1100px will ignore these styles*/
+@media screen and (max-width: 1100px) {
+	body {
+		width: auto;
+	}
+	
+	img, iframe {
+		max-width: 100%;
+	}
+	
+}
 
 
 

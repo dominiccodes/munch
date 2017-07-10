@@ -8,4 +8,8 @@ body {
 	line-height: 1.5;
 	width: 1100px;
 	margin: 0 auto;
+	/*	dark grey */
+	color: #141618;
+	/*	off white color*/
+	background-color: #ecf0f1;
 }

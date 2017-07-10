@@ -6,4 +6,6 @@ body {
 	font-size: 16px;
 	/*	1.5 x 16px is 24px.  1.4 or 1.5 is common for line heights */
 	line-height: 1.5;
+	width: 1100px;
+	margin: 0 auto;
 }

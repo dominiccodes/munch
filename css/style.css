@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body {
+	font-family: "Georgia", "Cambria", serif;
+	/*	Best to be explicit, future proof */
+	font-size: 16px;
+	/*	1.5 x 16px is 24px.  1.4 or 1.5 is common for line heights */
+	line-height: 1.5;
+}
